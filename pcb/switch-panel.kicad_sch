@@ -1276,163 +1276,6 @@
 				)
 			)
 		)
-		(symbol "Device:L"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "L"
-				(at -1.27 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "L"
-				(at 1.905 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Inductor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "inductor choke coil reactor magnetic"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "L_0_1"
-				(arc
-					(start 0 -2.54)
-					(mid 0.6323 -1.905)
-					(end 0 -1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -1.27)
-					(mid 0.6323 -0.635)
-					(end 0 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0)
-					(mid 0.6323 0.635)
-					(end 0 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 1.27)
-					(mid 0.6323 1.905)
-					(end 0 2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "L_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:R"
 			(pin_numbers hide)
 			(pin_names
@@ -3575,102 +3418,6 @@
 				)
 			)
 		)
-		(symbol "PWR_FLAG_1"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#FLG"
-				(at 0 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "PWR_FLAG"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Special symbol for telling ERC where power comes from"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "flag power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "PWR_FLAG_1_0_0"
-				(pin power_out line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "PWR_FLAG_1_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-		)
 		(symbol "Power_Protection:SRV05-4"
 			(pin_names
 				(offset 0)
@@ -5361,12 +5108,6 @@
 		(uuid "aadf0897-7de6-48e0-8c8a-5c18c5b6ea4a")
 	)
 	(junction
-		(at 207.01 64.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b50c1f28-d632-4ebe-8ca3-b5b1ed44812c")
-	)
-	(junction
 		(at 104.14 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5628,16 +5369,6 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 64.77) (xy 207.01 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "110f2adf-9788-4b0e-bf26-302582ea0a37")
-	)
-	(wire
-		(pts
 			(xy 119.38 111.76) (xy 127 111.76)
 		)
 		(stroke
@@ -5678,7 +5409,7 @@
 	)
 	(polyline
 		(pts
-			(xy 283.21 41.91) (xy 198.12 41.91)
+			(xy 283.21 41.91) (xy 212.09 41.91)
 		)
 		(stroke
 			(width 0)
@@ -5838,7 +5569,7 @@
 	)
 	(polyline
 		(pts
-			(xy 280.67 132.08) (xy 280.67 162.56)
+			(xy 280.67 132.08) (xy 280.67 156.21)
 		)
 		(stroke
 			(width 0)
@@ -6018,16 +5749,6 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 74.93) (xy 207.01 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4005853e-aee8-42d3-8cee-852c50a36884")
-	)
-	(wire
-		(pts
 			(xy 179.07 140.97) (xy 179.07 118.11)
 		)
 		(stroke
@@ -6065,16 +5786,6 @@
 			(type default)
 		)
 		(uuid "43260fad-5cd1-4afc-bdad-f25add597022")
-	)
-	(wire
-		(pts
-			(xy 207.01 67.31) (xy 207.01 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "439a3aa7-c02c-4693-b3f6-56d7ce959bd7")
 	)
 	(wire
 		(pts
@@ -6218,16 +5929,6 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 64.77) (xy 209.55 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6343438e-07ae-437b-90de-6a601cd85d1a")
-	)
-	(wire
-		(pts
 			(xy 33.02 91.44) (xy 33.02 88.9)
 		)
 		(stroke
@@ -6278,7 +5979,7 @@
 	)
 	(polyline
 		(pts
-			(xy 255.27 162.56) (xy 255.27 132.08)
+			(xy 255.27 156.21) (xy 255.27 132.08)
 		)
 		(stroke
 			(width 0)
@@ -6368,7 +6069,7 @@
 	)
 	(polyline
 		(pts
-			(xy 198.12 54.61) (xy 198.12 88.9)
+			(xy 212.09 54.61) (xy 212.09 88.9)
 		)
 		(stroke
 			(width 0)
@@ -6726,16 +6427,6 @@
 		)
 		(uuid "aaa75457-722e-45b9-b151-46305c356313")
 	)
-	(wire
-		(pts
-			(xy 217.17 64.77) (xy 219.71 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab283740-12a5-49af-baae-fb4c3cba98cf")
-	)
 	(polyline
 		(pts
 			(xy 247.65 161.29) (xy 142.24 161.29)
@@ -6808,7 +6499,7 @@
 	)
 	(polyline
 		(pts
-			(xy 280.67 162.56) (xy 255.27 162.56)
+			(xy 280.67 156.21) (xy 255.27 156.21)
 		)
 		(stroke
 			(width 0)
@@ -6918,7 +6609,7 @@
 	)
 	(polyline
 		(pts
-			(xy 198.12 88.9) (xy 283.21 88.9)
+			(xy 212.09 88.9) (xy 283.21 88.9)
 		)
 		(stroke
 			(width 0)
@@ -7006,16 +6697,6 @@
 		)
 		(uuid "d06336fe-4bdd-4a83-8f8d-016454352f45")
 	)
-	(wire
-		(pts
-			(xy 204.47 62.23) (xy 204.47 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d0f3f0c7-3aca-499c-9586-6b2ab71a84d6")
-	)
 	(polyline
 		(pts
 			(xy 133.35 50.8) (xy 17.78 50.8)
@@ -7038,7 +6719,7 @@
 	)
 	(polyline
 		(pts
-			(xy 198.12 41.91) (xy 198.12 54.61)
+			(xy 212.09 41.91) (xy 212.09 54.61)
 		)
 		(stroke
 			(width 0)
@@ -7301,7 +6982,7 @@
 	)
 	(text "OLED"
 		(exclude_from_sim no)
-		(at 198.12 40.64 0)
+		(at 211.582 41.148 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -7911,7 +7592,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "03b8a01a-31f2-4307-83ae-4e6f52f22fe6")
-		(property "Reference" "C11"
+		(property "Reference" "C2"
 			(at 182.88 66.0399 0)
 			(effects
 				(font
@@ -7965,7 +7646,7 @@
 		(instances
 			(project "switch-panel"
 				(path "/b45aec84-4de3-4a51-ab22-a258c9b1c100"
-					(reference "C11")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -7981,7 +7662,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "069c92a0-efe2-4a01-9ddc-0b9ff9407e14")
-		(property "Reference" "R3"
+		(property "Reference" "R5"
 			(at 181.61 143.51 0)
 			(effects
 				(font
@@ -8035,7 +7716,7 @@
 		(instances
 			(project "switch-panel"
 				(path "/b45aec84-4de3-4a51-ab22-a258c9b1c100"
-					(reference "R3")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -8115,7 +7796,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0a0bd59b-bc6c-439e-bd37-14fbc9c06d24")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR04"
 			(at 179.07 62.23 0)
 			(effects
 				(font
@@ -8165,7 +7846,7 @@
 		(instances
 			(project "switch-panel"
 				(path "/b45aec84-4de3-4a51-ab22-a258c9b1c100"
-					(reference "#PWR022")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -8181,7 +7862,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0f6619dd-fb59-471d-95e9-e2c062376890")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR019"
 			(at 201.93 143.51 0)
 			(effects
 				(font
@@ -8231,7 +7912,7 @@
 		(instances
 			(project "switch-panel"
 				(path "/b45aec84-4de3-4a51-ab22-a258c9b1c100"
-					(reference "#PWR016")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -8247,7 +7928,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1266bd13-e10e-4c47-a2da-43d527111ed9")
-		(property "Reference" "U3"
+		(property "Reference" "U1"
 			(at 168.91 54.61 0)
 			(effects
 				(font
@@ -8302,7 +7983,7 @@
 		(instances
 			(project "switch-panel"
 				(path "/b45aec84-4de3-4a51-ab22-a258c9b1c100"
-					(reference "U3")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -8392,7 +8073,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1cca2af4-5d58-4b3e-b617-f6679b8e8dc7")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR01"
 			(at 234.95 55.88 0)
 			(effects
 				(font
@@ -8442,7 +8123,7 @@
 		(instances
 			(project "switch-panel"
 				(path "/b45aec84-4de3-4a51-ab22-a258c9b1c100"
-					(reference "#PWR030")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -8458,7 +8139,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "20f6a690-de48-4583-b605-ea56da877a95")
-		(property "Reference" "#FLG01"
+		(property "Reference" "#FLG02"
 			(at 186.69 106.045 0)
 			(effects
 				(font
@@ -8508,7 +8189,7 @@
 		(instances
 			(project "switch-panel"
 				(path "/b45aec84-4de3-4a51-ab22-a258c9b1c100"
-					(reference "#FLG01")
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -8525,7 +8206,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2419eae9-ac3b-4756-bef4-2721a8860fee")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR012"
 			(at 33.02 107.95 0)
 			(effects
 				(font
@@ -8575,74 +8256,7 @@
 		(instances
 			(project "switch-panel"
 				(path "/b45aec84-4de3-4a51-ab22-a258c9b1c100"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "PWR_FLAG_1")
-		(lib_id "power:PWR_FLAG")
-		(at 219.71 62.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2479dd4d-b5d0-4d6a-9426-4a4fc6807579")
-		(property "Reference" "#FLG03"
-			(at 219.71 60.325 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 219.71 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 219.71 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 219.71 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 219.71 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bbe981be-5da0-4552-9502-a5609475c651")
-		)
-		(instances
-			(project "switch-panel"
-				(path "/b45aec84-4de3-4a51-ab22-a258c9b1c100"
-					(reference "#FLG03")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -8659,7 +8273,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "31ada575-bcae-4f01-9968-09b9c37097eb")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR02"
 			(at 242.57 55.88 0)
 			(effects
 				(font
@@ -8709,7 +8323,7 @@
 		(instances
 			(project "switch-panel"
 				(path "/b45aec84-4de3-4a51-ab22-a258c9b1c100"
-					(reference "#PWR031")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -8725,7 +8339,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3741920d-8e3b-4306-8df0-1aa6f6b6e300")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR03"
 			(at 153.67 62.23 0)
 			(effects
 				(font
@@ -8775,7 +8389,7 @@
 		(instances
 			(project "switch-panel"
 				(path "/b45aec84-4de3-4a51-ab22-a258c9b1c100"
-					(reference "#PWR020")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -8790,7 +8404,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3bdda183-46ca-47d7-bd76-9d2a78b56f4e")
-		(property "Reference" "C3"
+		(property "Reference" "C12"
 			(at 36.83 135.89 90)
 			(effects
 				(font
@@ -8842,7 +8456,7 @@
 		(instances
 			(project "switch-panel"
 				(path "/b45aec84-4de3-4a51-ab22-a258c9b1c100"
-					(reference "C3")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -8858,7 +8472,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "449d6a44-28c3-46be-a7e2-a4950b8ceaf1")
-		(property "Reference" "J1"
+		(property "Reference" "J2"
 			(at 26.67 162.5599 0)
 			(effects
 				(font
@@ -8925,71 +8539,7 @@
 		(instances
 			(project "switch-panel"
 				(path "/b45aec84-4de3-4a51-ab22-a258c9b1c100"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 261.62 149.86 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4948e877-3519-457d-aa2b-28acb261e234")
-		(property "Reference" "H3"
-			(at 264.16 148.5899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 264.16 151.1299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 261.62 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 261.62 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 261.62 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "switch-panel"
-				(path "/b45aec84-4de3-4a51-ab22-a258c9b1c100"
-					(reference "H3")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -9005,7 +8555,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5228c0c0-e692-4915-8f9c-b8d8dfecc4f1")
-		(property "Reference" "U2"
+		(property "Reference" "U4"
 			(at 233.4961 120.65 0)
 			(effects
 				(font
@@ -9080,7 +8630,7 @@
 		(instances
 			(project "switch-panel"
 				(path "/b45aec84-4de3-4a51-ab22-a258c9b1c100"
-					(reference "U2")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -9096,7 +8646,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "55a4a32f-6727-48c4-aa7d-9beb3697df0c")
-		(property "Reference" "C4"
+		(property "Reference" "C3"
 			(at 41.91 68.5799 0)
 			(effects
 				(font
@@ -9150,7 +8700,7 @@
 		(instances
 			(project "switch-panel"
 				(path "/b45aec84-4de3-4a51-ab22-a258c9b1c100"
-					(reference "C4")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -9166,7 +8716,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "60050fa5-d822-4c8a-8dbb-d189f1c9e103")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR017"
 			(at 30.48 139.7 0)
 			(effects
 				(font
@@ -9216,7 +8766,7 @@
 		(instances
 			(project "switch-panel"
 				(path "/b45aec84-4de3-4a51-ab22-a258c9b1c100"
-					(reference "#PWR01")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -9232,7 +8782,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "607cef30-686f-4913-90b2-e03de3766047")
-		(property "Reference" "C10"
+		(property "Reference" "C1"
 			(at 157.48 66.0399 0)
 			(effects
 				(font
@@ -9286,7 +8836,7 @@
 		(instances
 			(project "switch-panel"
 				(path "/b45aec84-4de3-4a51-ab22-a258c9b1c100"
-					(reference "C10")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -9302,7 +8852,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6081dda6-e15c-4c3e-a571-544ffd9977e3")
-		(property "Reference" "R6"
+		(property "Reference" "R1"
 			(at 237.49 57.1499 0)
 			(effects
 				(font
@@ -9356,7 +8906,7 @@
 		(instances
 			(project "switch-panel"
 				(path "/b45aec84-4de3-4a51-ab22-a258c9b1c100"
-					(reference "R6")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -9372,7 +8922,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "680a2bdc-999d-4fd5-bf38-81322b33eedb")
-		(property "Reference" "C6"
+		(property "Reference" "C5"
 			(at 67.31 68.5799 0)
 			(effects
 				(font
@@ -9426,7 +8976,7 @@
 		(instances
 			(project "switch-panel"
 				(path "/b45aec84-4de3-4a51-ab22-a258c9b1c100"
-					(reference "C6")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -9442,7 +8992,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "69543c1f-057c-4f22-9e0b-31acac59a415")
-		(property "Reference" "R5"
+		(property "Reference" "R2"
 			(at 245.11 57.1499 0)
 			(effects
 				(font
@@ -9496,7 +9046,7 @@
 		(instances
 			(project "switch-panel"
 				(path "/b45aec84-4de3-4a51-ab22-a258c9b1c100"
-					(reference "R5")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -9512,7 +9062,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "69fb2cc4-70a3-469d-b09d-031367c8d9d3")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR018"
 			(at 50.8 139.7 0)
 			(effects
 				(font
@@ -9562,7 +9112,7 @@
 		(instances
 			(project "switch-panel"
 				(path "/b45aec84-4de3-4a51-ab22-a258c9b1c100"
-					(reference "#PWR07")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -9578,7 +9128,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6cdafc19-4a21-4858-bd4d-ff9cd7fb0b3a")
-		(property "Reference" "C2"
+		(property "Reference" "C11"
 			(at 36.83 110.49 90)
 			(effects
 				(font
@@ -9630,77 +9180,7 @@
 		(instances
 			(project "switch-panel"
 				(path "/b45aec84-4de3-4a51-ab22-a258c9b1c100"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 207.01 71.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6d1b2ba5-a548-413f-9aad-638a8520fa0d")
-		(property "Reference" "C12"
-			(at 210.82 69.8499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22u"
-			(at 210.82 72.3899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 207.9752 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 207.01 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 207.01 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f451f7ab-2dbb-4c68-9ab8-d0f284c9523a")
-		)
-		(pin "1"
-			(uuid "e879ccef-3d8b-4361-aaec-6591303b1660")
-		)
-		(instances
-			(project "switch-panel"
-				(path "/b45aec84-4de3-4a51-ab22-a258c9b1c100"
-					(reference "C12")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -9716,7 +9196,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6d8e4d30-e82c-47c5-aee0-f16821a5e3f9")
-		(property "Reference" "C1"
+		(property "Reference" "C10"
 			(at 36.83 93.9799 0)
 			(effects
 				(font
@@ -9770,7 +9250,7 @@
 		(instances
 			(project "switch-panel"
 				(path "/b45aec84-4de3-4a51-ab22-a258c9b1c100"
-					(reference "C1")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -9785,7 +9265,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6f6da15d-a304-484c-980e-d5127ddddb2a")
-		(property "Reference" "R2"
+		(property "Reference" "R4"
 			(at 57.15 133.35 90)
 			(effects
 				(font
@@ -9837,71 +9317,7 @@
 		(instances
 			(project "switch-panel"
 				(path "/b45aec84-4de3-4a51-ab22-a258c9b1c100"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 261.62 156.21 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "73a6f3fc-fc1f-47cf-94ea-4e6b3d32f7a6")
-		(property "Reference" "H4"
-			(at 264.16 154.9399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 264.16 157.4799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 261.62 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 261.62 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 261.62 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "switch-panel"
-				(path "/b45aec84-4de3-4a51-ab22-a258c9b1c100"
-					(reference "H4")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -9917,7 +9333,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7b1bebf4-9fd8-4e5b-a645-5af8b1e6ba39")
-		(property "Reference" "C13"
+		(property "Reference" "C9"
 			(at 223.52 69.8499 0)
 			(effects
 				(font
@@ -9971,7 +9387,7 @@
 		(instances
 			(project "switch-panel"
 				(path "/b45aec84-4de3-4a51-ab22-a258c9b1c100"
-					(reference "C13")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -9987,7 +9403,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7d895a4d-296a-4e16-bda9-35ff732ea811")
-		(property "Reference" "J2"
+		(property "Reference" "J1"
 			(at 158.75 102.87 0)
 			(effects
 				(font
@@ -10093,7 +9509,7 @@
 		(instances
 			(project "switch-panel"
 				(path "/b45aec84-4de3-4a51-ab22-a258c9b1c100"
-					(reference "J2")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -10109,7 +9525,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "85c66efe-7453-4649-8b51-5de7b2ffdbc2")
-		(property "Reference" "C8"
+		(property "Reference" "C7"
 			(at 92.71 68.5799 0)
 			(effects
 				(font
@@ -10163,7 +9579,7 @@
 		(instances
 			(project "switch-panel"
 				(path "/b45aec84-4de3-4a51-ab22-a258c9b1c100"
-					(reference "C8")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -10179,7 +9595,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8874a4b5-2d44-4fe6-b817-3556d376cd51")
-		(property "Reference" "U1"
+		(property "Reference" "U3"
 			(at 106.3341 162.56 0)
 			(effects
 				(font
@@ -10372,7 +9788,7 @@
 		(instances
 			(project "switch-panel"
 				(path "/b45aec84-4de3-4a51-ab22-a258c9b1c100"
-					(reference "U1")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -10389,7 +9805,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "893d3def-9e10-41fd-9c81-4d0fe5a40bdd")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR022"
 			(at 158.75 157.48 0)
 			(effects
 				(font
@@ -10439,7 +9855,7 @@
 		(instances
 			(project "switch-panel"
 				(path "/b45aec84-4de3-4a51-ab22-a258c9b1c100"
-					(reference "#PWR011")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -10522,7 +9938,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "89a98fec-ef13-4bca-acdd-8c805e4735d4")
-		(property "Reference" "C7"
+		(property "Reference" "C6"
 			(at 80.01 68.5799 0)
 			(effects
 				(font
@@ -10576,7 +9992,7 @@
 		(instances
 			(project "switch-panel"
 				(path "/b45aec84-4de3-4a51-ab22-a258c9b1c100"
-					(reference "C7")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -10592,7 +10008,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9164c143-eca5-4df3-b80b-cc19c383a904")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR011"
 			(at 38.1 85.09 0)
 			(effects
 				(font
@@ -10642,7 +10058,7 @@
 		(instances
 			(project "switch-panel"
 				(path "/b45aec84-4de3-4a51-ab22-a258c9b1c100"
-					(reference "#PWR05")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -10659,7 +10075,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "99b7de54-f412-457d-9e57-24b5839ba723")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR027"
 			(at 101.6 173.99 0)
 			(effects
 				(font
@@ -10709,7 +10125,7 @@
 		(instances
 			(project "switch-panel"
 				(path "/b45aec84-4de3-4a51-ab22-a258c9b1c100"
-					(reference "#PWR09")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -10780,83 +10196,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L")
-		(at 213.36 64.77 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ab90550a-f3ad-43b0-8b31-d10092468b59")
-		(property "Reference" "L1"
-			(at 213.36 59.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2u2"
-			(at 213.36 62.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
-			(at 213.36 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 213.36 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Inductor"
-			(at 213.36 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C1043 "
-			(at 213.36 64.77 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "14c16f05-a701-4adc-9a72-7cdd62db2b19")
-		)
-		(pin "2"
-			(uuid "2a779ee0-b1b1-4b25-8a11-1f5c0e60a396")
-		)
-		(instances
-			(project "switch-panel"
-				(path "/b45aec84-4de3-4a51-ab22-a258c9b1c100"
-					(reference "L1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 201.93 107.95 0)
 		(unit 1)
@@ -10866,7 +10205,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "abc5518b-042f-4fd3-9072-a37c4d9460e2")
-		(property "Reference" "#FLG02"
+		(property "Reference" "#FLG03"
 			(at 201.93 106.045 0)
 			(effects
 				(font
@@ -10916,7 +10255,7 @@
 		(instances
 			(project "switch-panel"
 				(path "/b45aec84-4de3-4a51-ab22-a258c9b1c100"
-					(reference "#FLG02")
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -10933,7 +10272,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ada6aa02-c6b0-4e40-9f17-3460fe7f7745")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR028"
 			(at 30.48 182.88 0)
 			(effects
 				(font
@@ -10983,74 +10322,7 @@
 		(instances
 			(project "switch-panel"
 				(path "/b45aec84-4de3-4a51-ab22-a258c9b1c100"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "VDDA_6")
-		(lib_id "power:VDDA")
-		(at 204.47 62.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ae412a0f-86e2-4e4d-9d48-0d1ed748a8bf")
-		(property "Reference" "#PWR023"
-			(at 204.47 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 204.47 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 204.47 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 204.47 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VDDA\""
-			(at 204.47 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5e13f6b1-b88a-478c-94d7-380fb3e7c2be")
-		)
-		(instances
-			(project "switch-panel"
-				(path "/b45aec84-4de3-4a51-ab22-a258c9b1c100"
-					(reference "#PWR023")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -11066,7 +10338,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ae67c84b-598b-4881-a684-dd19d1b6dd61")
-		(property "Reference" "C5"
+		(property "Reference" "C4"
 			(at 54.61 68.5799 0)
 			(effects
 				(font
@@ -11120,7 +10392,7 @@
 		(instances
 			(project "switch-panel"
 				(path "/b45aec84-4de3-4a51-ab22-a258c9b1c100"
-					(reference "C5")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -11137,7 +10409,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aefaffdc-eab8-44cd-90bf-b340040da23f")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR013"
 			(at 45.72 113.03 0)
 			(effects
 				(font
@@ -11187,7 +10459,7 @@
 		(instances
 			(project "switch-panel"
 				(path "/b45aec84-4de3-4a51-ab22-a258c9b1c100"
-					(reference "#PWR06")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -11203,7 +10475,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b798263c-da04-44c2-a111-d4acd1fa879b")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR020"
 			(at 30.48 154.94 0)
 			(effects
 				(font
@@ -11253,7 +10525,7 @@
 		(instances
 			(project "switch-panel"
 				(path "/b45aec84-4de3-4a51-ab22-a258c9b1c100"
-					(reference "#PWR02")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -11269,7 +10541,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b9ba29d6-98cc-4771-8b2e-e1acc5bea446")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR05"
 			(at 99.06 64.77 0)
 			(effects
 				(font
@@ -11319,7 +10591,7 @@
 		(instances
 			(project "switch-panel"
 				(path "/b45aec84-4de3-4a51-ab22-a258c9b1c100"
-					(reference "#PWR08")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -11336,7 +10608,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bc98f6f2-fb1b-40ba-b1fc-7eb8acd4e883")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR021"
 			(at 151.13 157.48 0)
 			(effects
 				(font
@@ -11386,7 +10658,7 @@
 		(instances
 			(project "switch-panel"
 				(path "/b45aec84-4de3-4a51-ab22-a258c9b1c100"
-					(reference "#PWR010")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -11402,7 +10674,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9260d0f-6420-4746-8d7f-a2bd23b5a06a")
-		(property "Reference" "R4"
+		(property "Reference" "R6"
 			(at 190.5 143.51 0)
 			(effects
 				(font
@@ -11456,7 +10728,71 @@
 		(instances
 			(project "switch-panel"
 				(path "/b45aec84-4de3-4a51-ab22-a258c9b1c100"
-					(reference "R4")
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 261.62 149.86 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d094091a-5a07-4eb6-ad6c-8f5ed2cd0733")
+		(property "Reference" "H3"
+			(at 264.16 148.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 264.16 151.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 261.62 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 261.62 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 261.62 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "switch-panel"
+				(path "/b45aec84-4de3-4a51-ab22-a258c9b1c100"
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -11472,7 +10808,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d1aefbc1-7564-4d17-97d3-52aa490a1b8a")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR014"
 			(at 176.53 111.76 0)
 			(effects
 				(font
@@ -11522,7 +10858,7 @@
 		(instances
 			(project "switch-panel"
 				(path "/b45aec84-4de3-4a51-ab22-a258c9b1c100"
-					(reference "#PWR012")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -11539,7 +10875,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d20ed1b5-ea3a-4998-b287-d86c824114d4")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR026"
 			(at 201.93 158.75 0)
 			(effects
 				(font
@@ -11589,74 +10925,7 @@
 		(instances
 			(project "switch-panel"
 				(path "/b45aec84-4de3-4a51-ab22-a258c9b1c100"
-					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GND_2")
-		(lib_id "power:GND")
-		(at 207.01 77.47 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d2e1d7a3-ba0d-4c65-ae5f-fba0f0bf3dfd")
-		(property "Reference" "#PWR024"
-			(at 207.01 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 207.01 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 207.01 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 207.01 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 207.01 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5a1bd34c-d984-4251-81de-2215e444516e")
-		)
-		(instances
-			(project "switch-panel"
-				(path "/b45aec84-4de3-4a51-ab22-a258c9b1c100"
-					(reference "#PWR024")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -11673,7 +10942,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d8d3f3c5-0404-48c3-aa84-0b6376b9a700")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR010"
 			(at 219.71 83.82 0)
 			(effects
 				(font
@@ -11723,7 +10992,7 @@
 		(instances
 			(project "switch-panel"
 				(path "/b45aec84-4de3-4a51-ab22-a258c9b1c100"
-					(reference "#PWR025")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -11740,7 +11009,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d8e0ba5e-4f2f-4e1f-a840-056ce0fe481b")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR024"
 			(at 187.96 157.48 0)
 			(effects
 				(font
@@ -11790,7 +11059,7 @@
 		(instances
 			(project "switch-panel"
 				(path "/b45aec84-4de3-4a51-ab22-a258c9b1c100"
-					(reference "#PWR014")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -11806,7 +11075,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "db22bf38-ee28-44d9-b581-b2663e18a062")
-		(property "Reference" "R1"
+		(property "Reference" "R3"
 			(at 48.26 99.0599 0)
 			(effects
 				(font
@@ -11860,7 +11129,7 @@
 		(instances
 			(project "switch-panel"
 				(path "/b45aec84-4de3-4a51-ab22-a258c9b1c100"
-					(reference "R1")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -11876,7 +11145,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dbc936eb-6272-49da-8afb-dc35fb9e0e0f")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR016"
 			(at 229.87 124.46 0)
 			(effects
 				(font
@@ -11926,7 +11195,7 @@
 		(instances
 			(project "switch-panel"
 				(path "/b45aec84-4de3-4a51-ab22-a258c9b1c100"
-					(reference "#PWR018")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -11942,7 +11211,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e1a710c5-335a-49c0-a04f-8a4a6de186db")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR08"
 			(at 168.91 82.55 0)
 			(effects
 				(font
@@ -11992,7 +11261,7 @@
 		(instances
 			(project "switch-panel"
 				(path "/b45aec84-4de3-4a51-ab22-a258c9b1c100"
-					(reference "#PWR021")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -12009,7 +11278,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e3fcd364-5326-4de8-a5bc-29d7f5fc1d84")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR023"
 			(at 179.07 157.48 0)
 			(effects
 				(font
@@ -12059,7 +11328,7 @@
 		(instances
 			(project "switch-panel"
 				(path "/b45aec84-4de3-4a51-ab22-a258c9b1c100"
-					(reference "#PWR013")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -12076,7 +11345,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ea668d63-7e5b-4dc4-836c-6e8cb7e813b9")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR025"
 			(at 229.87 157.48 0)
 			(effects
 				(font
@@ -12126,7 +11395,7 @@
 		(instances
 			(project "switch-panel"
 				(path "/b45aec84-4de3-4a51-ab22-a258c9b1c100"
-					(reference "#PWR019")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -12144,7 +11413,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f1f92d7c-74f1-49e5-92dc-d63057e71b6c")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR07"
 			(at 233.68 81.28 0)
 			(effects
 				(font
@@ -12194,7 +11463,7 @@
 		(instances
 			(project "switch-panel"
 				(path "/b45aec84-4de3-4a51-ab22-a258c9b1c100"
-					(reference "#PWR026")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -12210,7 +11479,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f3ce44ba-f393-4b0e-bba6-5efd337a1a2e")
-		(property "Reference" "C9"
+		(property "Reference" "C13"
 			(at 205.74 144.78 0)
 			(effects
 				(font
@@ -12264,7 +11533,74 @@
 		(instances
 			(project "switch-panel"
 				(path "/b45aec84-4de3-4a51-ab22-a258c9b1c100"
-					(reference "C9")
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "VDDA_6")
+		(lib_id "power:VDDA")
+		(at 219.71 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fe07a1f4-16d9-4a6d-8c71-d23345cb6a5b")
+		(property "Reference" "#PWR050"
+			(at 219.71 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 219.71 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 219.71 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDDA\""
+			(at 219.71 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e8ad090d-4d5a-4f25-b4d0-b248ac602d9f")
+		)
+		(instances
+			(project "switch-panel"
+				(path "/b45aec84-4de3-4a51-ab22-a258c9b1c100"
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -12279,7 +11615,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "ff51bf0a-a71a-4354-a3c3-59461fd87d74")
-		(property "Reference" "U4"
+		(property "Reference" "U2"
 			(at 250.19 57.912 0)
 			(effects
 				(font
@@ -12339,7 +11675,7 @@
 		(instances
 			(project "switch-panel"
 				(path "/b45aec84-4de3-4a51-ab22-a258c9b1c100"
-					(reference "U4")
+					(reference "U2")
 					(unit 1)
 				)
 			)

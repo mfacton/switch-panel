@@ -1190,7 +1190,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00803cb5-4842-49b5-a8ca-81ef70790a38")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR030"
 			(at 124.46 41.91 0)
 			(effects
 				(font
@@ -1240,15 +1240,15 @@
 		(instances
 			(project "switch-panel"
 				(path "/b45aec84-4de3-4a51-ab22-a258c9b1c100/4fecbded-a761-4927-8486-6fb97402a7bf"
-					(reference "#PWR037")
+					(reference "#PWR030")
 					(unit 1)
 				)
 				(path "/b45aec84-4de3-4a51-ab22-a258c9b1c100/579c746c-159c-42fa-8ac2-f4823811309c"
-					(reference "#PWR033")
+					(reference "#PWR037")
 					(unit 1)
 				)
 				(path "/b45aec84-4de3-4a51-ab22-a258c9b1c100/482ea13e-b797-43ca-8796-84d059b8b78d"
-					(reference "#PWR046")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -1264,7 +1264,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0307e1eb-1de9-4a50-87ab-2f31604e9922")
-		(property "Reference" "D3"
+		(property "Reference" "D2"
 			(at 128.27 54.9274 90)
 			(effects
 				(font
@@ -1327,7 +1327,7 @@
 		(instances
 			(project "switch-panel"
 				(path "/b45aec84-4de3-4a51-ab22-a258c9b1c100/4fecbded-a761-4927-8486-6fb97402a7bf"
-					(reference "D3")
+					(reference "D2")
 					(unit 1)
 				)
 				(path "/b45aec84-4de3-4a51-ab22-a258c9b1c100/579c746c-159c-42fa-8ac2-f4823811309c"
@@ -1351,7 +1351,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "14034606-905a-4a88-bebd-4746a8f5423a")
-		(property "Reference" "D4"
+		(property "Reference" "D3"
 			(at 161.29 54.9274 90)
 			(effects
 				(font
@@ -1414,7 +1414,7 @@
 		(instances
 			(project "switch-panel"
 				(path "/b45aec84-4de3-4a51-ab22-a258c9b1c100/4fecbded-a761-4927-8486-6fb97402a7bf"
-					(reference "D4")
+					(reference "D3")
 					(unit 1)
 				)
 				(path "/b45aec84-4de3-4a51-ab22-a258c9b1c100/579c746c-159c-42fa-8ac2-f4823811309c"
@@ -1438,7 +1438,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "22d2708c-da19-4798-813f-d20bb2b23f31")
-		(property "Reference" "Q2"
+		(property "Reference" "Q1"
 			(at 95.25 64.7699 0)
 			(effects
 				(font
@@ -1507,11 +1507,11 @@
 		(instances
 			(project "switch-panel"
 				(path "/b45aec84-4de3-4a51-ab22-a258c9b1c100/4fecbded-a761-4927-8486-6fb97402a7bf"
-					(reference "Q2")
+					(reference "Q1")
 					(unit 1)
 				)
 				(path "/b45aec84-4de3-4a51-ab22-a258c9b1c100/579c746c-159c-42fa-8ac2-f4823811309c"
-					(reference "Q1")
+					(reference "Q4")
 					(unit 1)
 				)
 				(path "/b45aec84-4de3-4a51-ab22-a258c9b1c100/482ea13e-b797-43ca-8796-84d059b8b78d"
@@ -1532,7 +1532,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2bf27f7c-9073-487f-abb3-e29314ea4a5e")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR033"
 			(at 91.44 80.01 0)
 			(effects
 				(font
@@ -1582,15 +1582,15 @@
 		(instances
 			(project "switch-panel"
 				(path "/b45aec84-4de3-4a51-ab22-a258c9b1c100/4fecbded-a761-4927-8486-6fb97402a7bf"
-					(reference "#PWR036")
+					(reference "#PWR033")
 					(unit 1)
 				)
 				(path "/b45aec84-4de3-4a51-ab22-a258c9b1c100/579c746c-159c-42fa-8ac2-f4823811309c"
-					(reference "#PWR029")
+					(reference "#PWR040")
 					(unit 1)
 				)
 				(path "/b45aec84-4de3-4a51-ab22-a258c9b1c100/482ea13e-b797-43ca-8796-84d059b8b78d"
-					(reference "#PWR045")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -1607,7 +1607,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "383637cc-13c4-490a-8e23-8f604bc7e90d")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR035"
 			(at 157.48 80.01 0)
 			(effects
 				(font
@@ -1657,7 +1657,7 @@
 		(instances
 			(project "switch-panel"
 				(path "/b45aec84-4de3-4a51-ab22-a258c9b1c100/4fecbded-a761-4927-8486-6fb97402a7bf"
-					(reference "#PWR040")
+					(reference "#PWR035")
 					(unit 1)
 				)
 				(path "/b45aec84-4de3-4a51-ab22-a258c9b1c100/579c746c-159c-42fa-8ac2-f4823811309c"
@@ -1911,11 +1911,11 @@
 					(unit 1)
 				)
 				(path "/b45aec84-4de3-4a51-ab22-a258c9b1c100/579c746c-159c-42fa-8ac2-f4823811309c"
-					(reference "#PWR027")
+					(reference "#PWR039")
 					(unit 1)
 				)
 				(path "/b45aec84-4de3-4a51-ab22-a258c9b1c100/482ea13e-b797-43ca-8796-84d059b8b78d"
-					(reference "#PWR043")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -1931,7 +1931,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "79874999-fe39-474c-8add-c1aacf99a247")
-		(property "Reference" "Q4"
+		(property "Reference" "Q3"
 			(at 161.29 64.7699 0)
 			(effects
 				(font
@@ -2000,7 +2000,7 @@
 		(instances
 			(project "switch-panel"
 				(path "/b45aec84-4de3-4a51-ab22-a258c9b1c100/4fecbded-a761-4927-8486-6fb97402a7bf"
-					(reference "Q4")
+					(reference "Q3")
 					(unit 1)
 				)
 				(path "/b45aec84-4de3-4a51-ab22-a258c9b1c100/579c746c-159c-42fa-8ac2-f4823811309c"
@@ -2025,7 +2025,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "80aa44ce-d3cb-4a5a-8866-d578f682c995")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR034"
 			(at 124.46 80.01 0)
 			(effects
 				(font
@@ -2075,15 +2075,15 @@
 		(instances
 			(project "switch-panel"
 				(path "/b45aec84-4de3-4a51-ab22-a258c9b1c100/4fecbded-a761-4927-8486-6fb97402a7bf"
-					(reference "#PWR038")
-					(unit 1)
-				)
-				(path "/b45aec84-4de3-4a51-ab22-a258c9b1c100/579c746c-159c-42fa-8ac2-f4823811309c"
 					(reference "#PWR034")
 					(unit 1)
 				)
+				(path "/b45aec84-4de3-4a51-ab22-a258c9b1c100/579c746c-159c-42fa-8ac2-f4823811309c"
+					(reference "#PWR041")
+					(unit 1)
+				)
 				(path "/b45aec84-4de3-4a51-ab22-a258c9b1c100/482ea13e-b797-43ca-8796-84d059b8b78d"
-					(reference "#PWR047")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -2099,7 +2099,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9d76d7ac-6ffb-4d77-9c9d-6d5071a6615e")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR029"
 			(at 91.44 41.91 0)
 			(effects
 				(font
@@ -2149,15 +2149,15 @@
 		(instances
 			(project "switch-panel"
 				(path "/b45aec84-4de3-4a51-ab22-a258c9b1c100/4fecbded-a761-4927-8486-6fb97402a7bf"
-					(reference "#PWR035")
+					(reference "#PWR029")
 					(unit 1)
 				)
 				(path "/b45aec84-4de3-4a51-ab22-a258c9b1c100/579c746c-159c-42fa-8ac2-f4823811309c"
-					(reference "#PWR028")
+					(reference "#PWR036")
 					(unit 1)
 				)
 				(path "/b45aec84-4de3-4a51-ab22-a258c9b1c100/482ea13e-b797-43ca-8796-84d059b8b78d"
-					(reference "#PWR044")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -2173,7 +2173,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9ea1a3d6-e4ef-4e16-b892-f0132deeef6c")
-		(property "Reference" "D2"
+		(property "Reference" "D1"
 			(at 95.25 54.9274 90)
 			(effects
 				(font
@@ -2236,11 +2236,11 @@
 		(instances
 			(project "switch-panel"
 				(path "/b45aec84-4de3-4a51-ab22-a258c9b1c100/4fecbded-a761-4927-8486-6fb97402a7bf"
-					(reference "D2")
+					(reference "D1")
 					(unit 1)
 				)
 				(path "/b45aec84-4de3-4a51-ab22-a258c9b1c100/579c746c-159c-42fa-8ac2-f4823811309c"
-					(reference "D1")
+					(reference "D4")
 					(unit 1)
 				)
 				(path "/b45aec84-4de3-4a51-ab22-a258c9b1c100/482ea13e-b797-43ca-8796-84d059b8b78d"
@@ -2260,7 +2260,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a3a61be3-2dfb-4bb7-81cf-343f84856ade")
-		(property "Reference" "Q3"
+		(property "Reference" "Q2"
 			(at 128.27 64.7699 0)
 			(effects
 				(font
@@ -2329,7 +2329,7 @@
 		(instances
 			(project "switch-panel"
 				(path "/b45aec84-4de3-4a51-ab22-a258c9b1c100/4fecbded-a761-4927-8486-6fb97402a7bf"
-					(reference "Q3")
+					(reference "Q2")
 					(unit 1)
 				)
 				(path "/b45aec84-4de3-4a51-ab22-a258c9b1c100/579c746c-159c-42fa-8ac2-f4823811309c"
@@ -2344,6 +2344,156 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 54.61 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "ab0bd1c4-ce2a-4454-9485-2207b033d1de")
+		(property "Reference" "SW1"
+			(at 54.61 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 54.61 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 54.61 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 54.61 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b1d0e293-4474-4b2e-922e-c188f81a13d3")
+		)
+		(pin "1"
+			(uuid "ee63baea-7391-4453-ae4e-e98b902647c3")
+		)
+		(instances
+			(project "switch-panel"
+				(path "/b45aec84-4de3-4a51-ab22-a258c9b1c100/4fecbded-a761-4927-8486-6fb97402a7bf"
+					(reference "SW1")
+					(unit 1)
+				)
+				(path "/b45aec84-4de3-4a51-ab22-a258c9b1c100/579c746c-159c-42fa-8ac2-f4823811309c"
+					(reference "SW2")
+					(unit 1)
+				)
+				(path "/b45aec84-4de3-4a51-ab22-a258c9b1c100/482ea13e-b797-43ca-8796-84d059b8b78d"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 157.48 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "acb54ae3-dcb9-4b20-852d-65685b52fcdf")
+		(property "Reference" "#PWR031"
+			(at 157.48 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 157.48 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 157.48 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d963cd8b-0fef-4013-aa64-0f2c73cb128c")
+		)
+		(instances
+			(project "switch-panel"
+				(path "/b45aec84-4de3-4a51-ab22-a258c9b1c100/4fecbded-a761-4927-8486-6fb97402a7bf"
+					(reference "#PWR031")
+					(unit 1)
+				)
+				(path "/b45aec84-4de3-4a51-ab22-a258c9b1c100/579c746c-159c-42fa-8ac2-f4823811309c"
+					(reference "#PWR038")
+					(unit 1)
+				)
+				(path "/b45aec84-4de3-4a51-ab22-a258c9b1c100/482ea13e-b797-43ca-8796-84d059b8b78d"
+					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 91.44 44.45 0)
 		(unit 1)
@@ -2352,8 +2502,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a4d9a415-24f6-4ae6-9495-457d4fe0babb")
-		(property "Reference" "R10"
+		(uuid "bf344eec-be47-4554-84dd-9af847555205")
+		(property "Reference" "R7"
 			(at 93.98 43.1799 0)
 			(effects
 				(font
@@ -2408,169 +2558,23 @@
 			)
 		)
 		(pin "1"
-			(uuid "acbe487a-df00-41a2-ac07-5f1ae35aaa34")
+			(uuid "1bee912b-4d82-4a7a-a2bf-9ae30b4c92c8")
 		)
 		(pin "2"
-			(uuid "823de727-e124-4c21-8554-59c1b954e98f")
+			(uuid "2cbd122f-d1c9-4753-b6db-8695f4ced49c")
 		)
 		(instances
 			(project "switch-panel"
+				(path "/b45aec84-4de3-4a51-ab22-a258c9b1c100/4fecbded-a761-4927-8486-6fb97402a7bf"
+					(reference "R7")
+					(unit 1)
+				)
 				(path "/b45aec84-4de3-4a51-ab22-a258c9b1c100/579c746c-159c-42fa-8ac2-f4823811309c"
 					(reference "R10")
 					(unit 1)
 				)
 				(path "/b45aec84-4de3-4a51-ab22-a258c9b1c100/482ea13e-b797-43ca-8796-84d059b8b78d"
 					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 54.61 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "ab0bd1c4-ce2a-4454-9485-2207b033d1de")
-		(property "Reference" "SW4"
-			(at 54.61 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 54.61 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 54.61 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 54.61 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 54.61 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b1d0e293-4474-4b2e-922e-c188f81a13d3")
-		)
-		(pin "1"
-			(uuid "ee63baea-7391-4453-ae4e-e98b902647c3")
-		)
-		(instances
-			(project "switch-panel"
-				(path "/b45aec84-4de3-4a51-ab22-a258c9b1c100/4fecbded-a761-4927-8486-6fb97402a7bf"
-					(reference "SW4")
-					(unit 1)
-				)
-				(path "/b45aec84-4de3-4a51-ab22-a258c9b1c100/579c746c-159c-42fa-8ac2-f4823811309c"
-					(reference "SW1")
-					(unit 1)
-				)
-				(path "/b45aec84-4de3-4a51-ab22-a258c9b1c100/482ea13e-b797-43ca-8796-84d059b8b78d"
-					(reference "SW2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VBUS")
-		(at 157.48 38.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "acb54ae3-dcb9-4b20-852d-65685b52fcdf")
-		(property "Reference" "#PWR039"
-			(at 157.48 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 157.48 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 157.48 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 157.48 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 157.48 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d963cd8b-0fef-4013-aa64-0f2c73cb128c")
-		)
-		(instances
-			(project "switch-panel"
-				(path "/b45aec84-4de3-4a51-ab22-a258c9b1c100/4fecbded-a761-4927-8486-6fb97402a7bf"
-					(reference "#PWR039")
-					(unit 1)
-				)
-				(path "/b45aec84-4de3-4a51-ab22-a258c9b1c100/579c746c-159c-42fa-8ac2-f4823811309c"
-					(reference "#PWR041")
-					(unit 1)
-				)
-				(path "/b45aec84-4de3-4a51-ab22-a258c9b1c100/482ea13e-b797-43ca-8796-84d059b8b78d"
-					(reference "#PWR048")
 					(unit 1)
 				)
 			)
