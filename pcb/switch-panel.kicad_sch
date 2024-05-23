@@ -5204,6 +5204,10 @@
 		(uuid "77b42f1c-d477-43f8-9e94-9d933e137457")
 	)
 	(no_connect
+		(at 119.38 96.52)
+		(uuid "826506ea-6323-4d68-8483-aca4f9c81f66")
+	)
+	(no_connect
 		(at 119.38 127)
 		(uuid "8a5034eb-d237-45f2-ac92-b19bfc7dfbf5")
 	)
@@ -7170,17 +7174,6 @@
 			(justify left bottom)
 		)
 		(uuid "2cb0298a-185e-4331-94ea-95a794c505a6")
-	)
-	(label "OPWR"
-		(at 226.06 64.77 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2ea33fb5-71aa-4493-b621-1357206e9245")
 	)
 	(label "BTN3"
 		(at 146.05 27.94 0)
